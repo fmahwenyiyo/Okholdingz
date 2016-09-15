@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="example.com.okholdingz.Okproducts">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff"
+        android:layout_alignParentTop="true"
+        android:id="@+id/vattitle">
+
+
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="#054604"
+                android:textColor="#fff"
+                android:text="Product Code"
+                android:layout_weight="1"
+                android:layout_column="0"
+                android:id="@+id/txtndid"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="2dp"
+                android:gravity="left|center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="#054604"
+                android:textColor="#fff"
+                android:text="Product Name"
+                android:layout_column="1"
+                android:id="@+id/txtdrtype"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="2dp"
+                android:gravity="left|center"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="#054604"
+                android:textColor="#fff"
+                android:layout_column="2"
+                android:text="Product Type"
+                android:id="@+id/txttaxperiod"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="2dp"
+                android:gravity="left|center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="#054604"
+                android:textColor="#fff"
+                android:layout_column="2"
+                android:text="Product Price"
+                android:id="@+id/txttaxeriod"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="2dp"
+                android:gravity="left|center"
+                android:textAlignment="center" />
+
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listpdts"
+        android:layout_below="@+id/vattitle"/>
+
+</RelativeLayout>

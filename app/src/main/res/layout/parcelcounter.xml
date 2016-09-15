@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#1fc9b8"
+    android:layout_alignParentTop="true"
+    >
+
+
+    <!-- Row 1 with single column -->
+    <TableRow
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="#1fc9b8"
+            android:textColor="#000"
+
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:id="@+id/sid"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="2dp"
+            android:gravity="left|center"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="#1fc9b8"
+            android:textColor="#000"
+
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:id="@+id/status"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="2dp"
+            android:gravity="left|center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="#1fc9b8"
+            android:textColor="#000"
+            android:layout_column="1"
+            android:id="@+id/bby"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="2dp"
+            android:gravity="left|center"
+            android:textAlignment="center" />
+
+
+
+
+
+
+    </TableRow>
+
+
+</TableLayout>
+
+

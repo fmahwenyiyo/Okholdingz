@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#cbe8a3a3">
+
+    <!--  Sample Dashboard screen with Two buttons -->
+    <!--  Button to view all products screen -->
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OK products"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dip"
+        android:background="#fb0202"/>
+
+    <!--  Button to parcel counter screen -->
+
+    <!--  Button to Shopping Cart screen -->
+    <Button
+        android:id="@+id/btnShoppingCart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="My Shopping Cart"
+        android:layout_marginTop="25dip"
+        android:textColor="#ffffff"
+        android:background="#fb0202"/>
+
+    <!--  Button Order screen -->
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="My Orders"
+        android:textColor="#ffffff"
+        android:background="#fb0202"
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button to logout screen -->
+    <Button
+        android:id="@+id/btnParcelCounter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Parcel Counter"
+        android:layout_marginTop="25dip"
+        android:textColor="#ffffff"
+        android:background="#fb0202"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Communicate with us"
+        android:onClick="OnMessage"
+        android:layout_marginTop="25dip"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:background="#fb0202"/>
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dip"
+        android:background="#fb0202"/>
+
+</LinearLayout>
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!--  Sample Dashboard screen with Two buttons -->
+    <!--  Button to view all products screen -->
+    <Button android:id="@+id/btnViewProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Products"
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button to parcel counter screen -->
+    <Button android:id="@+id/btnParcelCounter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Parcel Counter"
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button to Shopping Cart screen -->
+    <Button android:id="@+id/btnShoppingCart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Shopping Cart"
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button Order screen -->
+    <Button android:id="@+id/btnOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Products"
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button to logout screen -->
+    <Button android:id="@+id/btnlogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="25dip"/>
+
+</LinearLayout>
+
+
